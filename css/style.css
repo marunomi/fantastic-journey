@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html,body{
+  height: 100%;
+}
+body{
+  background-color: #FFFCF9;
+
+}
+.container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.moji{
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: #024775;
+}
+.title{
+  font-weight: 700;
+  font-size: 50px;
+}
+.bun{
+  font-weight: 300;
+  font-size: 25px;
+}
+.item{
+  background-color: rgba(177,237,232,0);
+  border-radius: 2px;
+  width: 50%;
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
